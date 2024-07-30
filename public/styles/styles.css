@@ -1,0 +1,36 @@
+/* Navbar styling */
+nav.navbar-custom {
+    background-color: #ff69b4; /* Pink color for the navbar */
+}
+
+nav.navbar-custom .navbar-brand,
+nav.navbar-custom .navbar-nav .nav-link {
+    color: white; /* Navbar text color */
+}
+
+nav.navbar-custom .navbar-toggler-icon {
+    color: white; /* Navbar toggle icon color */
+}
+
+/* Body background color */
+body {
+    background-color: yellow; /* Yellow background color for the body */
+}
+
+
+/* Custom form controls */
+.form-control-custom {
+    width: 100%;
+    height: 150px; /* Adjust the height as needed */
+    font-size: 18px; /* Optional: Increase font size */
+}
+
+.textarea-large {
+    height: 250px; /* Adjust the height for textarea */
+}
+
+.btn-custom {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+}
