@@ -21,10 +21,9 @@ const connection = mysql.createConnection({
     // password: '',
     // port: 3316,
     // database: 'ga237'
-    host: 'localhostmysql-noelletxt.alwaysdata.net',
+    host: 'mysql-noelletxt.alwaysdata.net',
     user: 'noelletxt',
     password: 't0637213e',
-    port: 3316,
     database: 'noelletxt_recipebook'
 });
 
