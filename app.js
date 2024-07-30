@@ -16,11 +16,16 @@ const upload = multer({ storage: storage });
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // port: 3316,
+    // database: 'ga237'
+    host: 'localhostmysql-noelletxt.alwaysdata.net',
+    user: 'noelletxt',
+    password: 't0637213e',
     port: 3316,
-    database: 'ga237'
+    database: 'noelletxt_recipebook'
 });
 
 connection.connect((err) => {
